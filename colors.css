@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@700&display=swap');
+
+/*resetando o body*/
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+;
+}
+
+/*logo do CITI*/
+.logo {
+    margin: 0%;
+    height: 68px;
+    width: 128px;
+    padding-left: 656px;
+    padding-top: 39px;
+    border-radius: 0px;
+}
+
+/*Retangulo do centro*/
+.centro {
+    margin: 0;
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 940px;
+    height: 437px;
+    left: 250px;
+    top: 354px;
+
+    background: #E5E5E5;
+    border: 3px solid #51E678;
+    border-radius: 8px;
+}
+
+/*Titulo central*/
+#Titulo {
+    position: absolute;
+    width: 351px;
+    height: 43px;
+    margin: 0;
+    padding-top: 32px;
+    padding-left: 295px;
+    
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    
+    color: rgba(41, 41, 41, 0.8);
+}
+
+
+/*design do botão*/
+.botao {
+    position: absolute;
+    width: 412px;
+    height: 64px;
+    top: 301px;
+    left: 264px;
+
+    background: #51E678;
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    margin: 0;
+}
+
+
+/*Texto dentro do botão*/
+#frase {
+    position: absolute;
+    width: 96px;
+    height: 32px;
+    top: 10px;
+    left: 158px;
+    margin: 0;
+
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #292929;
+
+}
+
+#text {
+    position: absolute;
+    width: 689px;
+    height: 66px;
+    top: 64px;
+    left: 150px;
+
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: center;
+
+    color: #292929;
+}
